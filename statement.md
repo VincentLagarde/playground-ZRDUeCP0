@@ -164,6 +164,7 @@ public class TestVisitorDemo {
 
 On vérifie que tout cela fonctionne.
 
+```java runnable
 Visiting car
 Visiting front left wheel
 Visiting front right wheel
@@ -181,3 +182,4 @@ Kicking my back right
 Moving my body
 Starting my engine
 Started car
+```
