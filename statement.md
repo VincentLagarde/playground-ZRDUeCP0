@@ -159,3 +159,26 @@ public class TestVisitorDemo {
     }
 }
 ```
+
+# Sixième étape
+
+On vérifie que tout cela fonctionne.
+
+
+Visiting car
+Visiting front left wheel
+Visiting front right wheel
+Visiting back left wheel
+Visiting back right wheel
+Visiting body
+Visiting engine
+Visited car
+
+Starting my car
+Kicking my front left
+Kicking my front right
+Kicking my back left
+Kicking my back right
+Moving my body
+Starting my engine
+Started car
