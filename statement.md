@@ -4,7 +4,6 @@ On définit une interface qui représente un élément.
 
 CarElementVisitor.java
 ```java runnable
-
 interface CarElement {
     void accept(CarElementVisitor visitor);
     // Méthode à définir par les classes implémentant CarElements
