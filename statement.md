@@ -164,7 +164,6 @@ public class TestVisitorDemo {
 
 On vérifie que tout cela fonctionne.
 
-
 Visiting car
 Visiting front left wheel
 Visiting front right wheel
