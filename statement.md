@@ -2,7 +2,7 @@
 
 On définit une interface qui représente un élément.
 
-CarElementVisitor.java
+CarElement.java
 ```java runnable
 interface CarElement {
     void accept(CarElementVisitor visitor);
@@ -143,7 +143,7 @@ class CarElementDoVisitor implements CarElementVisitor {
 
 # Cinquième étape
 
-On crée une classe de démonstration grâce aux deux classes précédentes.
+On crée une classe de test pour la démonstration grâce aux deux classes précédentes.
 
 TestVisitorDemo.java
 ```java runnable
@@ -183,3 +183,30 @@ Moving my body
 Starting my engine
 Started car
 ```
+
+# Quizz
+
+?[Combien y a t-il d'étapes dans notre tutoriel ?]
+-[ ] 8
+-[ ] 4
+-[x] 6
+
+?[Combien d'interfaces avons-nous défini ?]
+-[ ] 3
+-[x] 2
+-[ ] 0
+
+?[Chaque classe pouvant être "visitée" doit mettre à disposition une méthode publique :]
+-[ ] accepted
+-[x] accept
+-[ ] visited
+
+?[Quelle est la première étape ?]
+-[x] Créer l'interface CarElement.java
+-[ ] Créer l'interface CarElementVisitor.java
+-[ ] Créer les classes Wheel.java, Engine.java, Body.java et Car.java
+
+?[A quoi sert la méthode accept ?]
+-[x] Elle appelle la méthode "visite" de l'objet du type "visiteur" avec pour argument l'objet visité.
+-[ ] Elle appelle la méthode "visite" de l'objet du type "visité" avec pour argument l'objet visiteur.
+-[ ] Elle appelle la méthode "visiteur" de l'objet du type "visite" avec pour argument l'objet visité.
